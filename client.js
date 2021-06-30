@@ -8,6 +8,7 @@ const net = require('net');
     conn.setEncoding("utf8");
     conn.on('connect', () => {
     conn.write("Name: OOP")
+    conn.write("Say: aaaaaaaaaa")
     console.log('Successfully connected to game server')
    });
 

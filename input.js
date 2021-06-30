@@ -28,6 +28,12 @@ else if (key === 's'){
 else if (key === 'd'){
   connection.write("Move: right")
 }
+else if (key === 'f'){
+  connection.write("Say: oop")
+}
+else if (key === 'v'){
+  connection.write("Say: hi")
+}
 }
 
 module.exports = { setupInput }
