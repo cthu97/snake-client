@@ -5,7 +5,12 @@ const connect = () => {
   port: 50542 
 });
 conn.setEncoding("utf8");
+conn.on('connect', () => {
+  conn.write("Name: C")
+})
 return conn;
 }
+
+
 
 module.exports = connect
