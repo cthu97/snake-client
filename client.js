@@ -25,3 +25,4 @@ const connect = () => {
     return conn;
   }
 
+module.exports = connect
